@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { NavLink as Link } from 'react-router-dom'
 import {GiChicken} from 'react-icons/gi'
 export const Nav = styled.nav`
-background: red;
+background: transparent;
 height: 80px;
 display: flex;
 justify-content: center;
@@ -41,6 +41,6 @@ p{
 `
 
 export const Bars = styled(GiChicken)`
-font-size: 2rem;
-transform: translate(-50%, -85%)
+font-size: 3rem;
+transform: translate(-50%, -50%)
 `

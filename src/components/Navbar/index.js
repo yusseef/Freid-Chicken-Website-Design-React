@@ -6,7 +6,7 @@ const Navbar = () => {
             <Nav>
                 <NavLink to='/'>Fried chicken</NavLink>
                 <NavIcon>
-                    <p>Menue</p>
+                    <p>Menu</p>
                     <Bars />
                 </NavIcon>
             </Nav>
