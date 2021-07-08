@@ -29,18 +29,15 @@ cursor: pointer;
 export const NavIcon = styled.div`
 display: block;
 position: absolute;
-top: 0;
+top: -10;
 right: 0;
 cursor: pointer;
 color: #fff;
 
-p{
-    transform: translate(-175%, 100%);
-    font-weight: bold;
-}
+
 `
 
 export const Bars = styled(GiChicken)`
 font-size: 3rem;
-transform: translate(-50%, -50%)
+transform: translate(-50%, 50%);
 `
