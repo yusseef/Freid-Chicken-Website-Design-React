@@ -1,4 +1,4 @@
-# React animation with framer.
+# React Chicken restaurant website design.
 [link to Bheance design!](https://www.behance.net/gallery/123395427/Chicken-restaurant-website-design)
 ### How to run ??
 * npm install
