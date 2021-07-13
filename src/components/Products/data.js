@@ -1,6 +1,9 @@
 import product1 from '../../images/product-1.jpg'
 import product2 from '../../images/product-2.jpg'
 import product3 from '../../images/product-3.jpg'
+import Desert1 from '../../images/Desert1.jpg'
+import Desert2 from '../../images/Desert2.jpg'
+import Desert3 from '../../images/Desert3.jpg'
 export const ProductData = [
     
     {
@@ -26,5 +29,33 @@ export const ProductData = [
     desc: 'Bread, One large piece of chicken, lettuce, turkey',
     price :'$20',
     button: 'Add Zinger to cart'
+},
+]
+
+export const DesertData = [
+    
+    {
+    img: Desert1,
+    alt:'Baked ricotta cake',
+    name:'Baked ricotta cake',
+    desc: 'Ricotta is fantastic in desserts, and this cake is no exception.',
+    price :'$30',
+    button: 'Add Baked ricotta cake to cart '
+},
+{
+    img: Desert2,
+    alt:'Easy lemon meringue pie',
+    name:'Easy lemon meringue pie',
+    desc: 'This is an edited extract from A Table for Friends',
+    price :'$15',
+    button: 'Add Easy lemon meringue pie to cart'
+},
+{
+    img: Desert3,
+    alt:'Coconut yoghurt cake',
+    name:'Coconut yoghurt cake',
+    desc: 'Zero waste tip: "When it comes to storing perishables like dairy, the freezer is your best friends.',
+    price :'$20',
+    button: 'Add Coconut yoghurt cake to cart'
 },
 ]
